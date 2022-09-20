@@ -1,0 +1,20 @@
+@import "bootstrap.min.css";
+
+img, p, button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    margin-top: 20px;
+    opacity: 0.9;
+    width: 450px;
+    border-radius: 10px;
+}
+
+p{
+    width: 490px;
+    text-align: justify;
+}
+
