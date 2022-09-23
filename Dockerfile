@@ -1,6 +1,4 @@
-FROM openjdk:17
+FROM tomcat:9.0.65
 
-COPY ./target/myGame.war ./myGame.war
-ENV PORT=8080
 EXPOSE 8080
-CMD ["java","-jar","myGame.war"]
+COPY ./target/myGame.war /usr/local/tomcat/webapps/ROOT.war

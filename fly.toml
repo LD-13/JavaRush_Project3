@@ -1,6 +1,6 @@
-# fly.toml file generated for solitary-flower-4622 on 2022-08-26T22:48:12+03:00
+# fly.toml file generated for frosty-river-1991 on 2022-09-23T23:38:35+10:00
 
-app = "dev-flower13-4622"
+app = "frosty-river-1991"
 kill_signal = "SIGINT"
 kill_timeout = 5
 processes = []
