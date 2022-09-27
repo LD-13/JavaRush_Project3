@@ -15,6 +15,7 @@ public class InitServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         HttpSession currentSession = req.getSession(true);
+        req.setCharacterEncoding("UTF-8");
         player = new Player();
         player.setName(req.getParameter("name"));
         Texts texts = new Texts(player.getName());
